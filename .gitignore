@@ -1,0 +1,8 @@
+.env
+__pycache__/
+data/faiss_index/
+audit_results.csv
+bias_audit_chart.png
+.DS_Store
+*.csv
+*.png

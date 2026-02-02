@@ -1,0 +1,17 @@
+{
+  "dataset_name": "HSE Sepsis Audit Sample",
+  "version": "1.0.0",
+  "origin": "Synthetic patient data based on HSE Reposeps Guideline",
+  "owner": "SlainteAI-Core Team",
+  "sensitive_features": ["gender", "ethnicity"],
+  "intended_use": "Auditing AI priority decisions for potential bias in Irish healthcare.",
+  "collection_date": "2026-02-02",
+  "compliance": {
+    "gdpr": "Anonymized synthetic data",
+    "eu_ai_act": "Annex IV Compliant"
+  },
+  "labels": {
+    "actual_priority": "Human clinician's triage decision",
+    "ai_priority": "SlainteAI predicted triage decision"
+  }
+}
